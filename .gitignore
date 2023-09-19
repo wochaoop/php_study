@@ -1,0 +1,8 @@
+# backup
+*.bak
+# phpMyAdmin
+phpMyAdmin*/
+# install
+installer/installed.lock
+# 播放器
+player/
