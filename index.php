@@ -1,20 +1,5 @@
 <?php
-class Person {
-    public $name, $sex;
- 
-    function __construct($name,$sex){
-        $this->name = $name;
-        $this->sex = $sex;
-    }
+define('WORKDIR',getcwd());
+require_once(WORKDIR.'/include/index.php');
 
-    function getName(){
-        return $this->name;
-    }
-
-}
- 
-$newObj = new Person("Tim","girl");
-
-echo $newObj->getName();
-
-?>
+require_once(WORKDIR.'/html/index.html');

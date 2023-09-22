@@ -1,0 +1,27 @@
+config:
+  workdir: ''
+# 调试模式
+  debug: true
+# 测试版
+  beta: true
+  use_db: 'mysql'
+
+mysql:
+  # use mysql
+  database_name: 'localhost'
+  server: 'localhost'
+  username: 'localhost'
+  password: '123456'
+  # mysql optional
+  charset: 'utf8mb4'
+  port: '3306'
+sqlite:
+  # use sqlite
+  database_file: 'my/database/path/database.db'
+postgresql:
+    database_name: 'postgres'
+    server: 'localhost'
+    username: 'postgres'
+    password: '123456'
+    # postgresql optional
+    port: '5432'
