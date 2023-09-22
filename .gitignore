@@ -6,3 +6,5 @@ phpMyAdmin*/
 installer/installed.lock
 # 播放器
 player/
+# composer 依赖
+vendor/
