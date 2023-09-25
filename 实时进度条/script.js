@@ -40,8 +40,8 @@ $(document).ready(function () {
             dataType: 'json',
             success: function (data) {
                 // 重置进度条的宽度和文本
-                $('#progress-bar').css('width', data.progress + '%');
-                $('#progress-bar').text(data.progress + '%');
+                $('#progress-bar').css('width', '0%');
+                $('#progress-bar').text('0%');
             },
             error: function (error) {
                 console.error('发生错误：', error);
